@@ -1,0 +1,343 @@
+body {
+	margin: 0px;
+	background-color: #F0FFFF;
+}
+
+.LineContent {
+	position: inherit;
+    width: 1903px;
+    height: 70px;
+    background: #305844;
+}
+
+.title {
+	position: static;
+    display: flex;
+    padding: 5px;
+}
+
+.style-DeepLine {
+	width: 100%;
+    height: 80px;
+    padding-left: 320px;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    position: absolute;
+}
+
+
+ ol, ul {
+    list-style: none;
+}
+
+li {
+	 list-style-type: none
+}
+
+.mediacontent {
+	margin: 0px;
+	border: hidden;
+	font-size: 30px;
+	color: white;
+	font-family: fantasy;
+	line-height: 100%; 
+	padding: 15px 15px;
+	text-decoration:none;
+
+
+}
+
+
+
+a:visited {
+	color: white;
+}
+
+a:active {
+	color: orange;
+}
+
+a:hover {
+	color: black;
+
+}
+
+.pronas {
+	margin: 1px;
+	border: hidden;
+	font-size: 30px;
+	width: 90px;
+	height: 30px;
+	color: white;
+	font-family: fantasy;
+	font-style: cursive;
+	line-height: 100%; 
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+
+}
+
+.news {
+	position: relative;
+	display: flex;
+}
+
+.style-mediacontent1 {
+	margin: 1px;
+	border: hidden;
+	font-size: 30px;
+	width: 90px;
+	height: 30px;
+	color: white;
+	font-family: fantasy;
+	font-style: cursive;
+	line-height: 100%; 
+	padding-left: 15px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  border: groove;
+  border-color: black;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slide {
+	background-position: center;
+	height: 70vh;
+	width:1900px;
+
+}
+
+.screen1 {
+	position: absolute;
+	margin: 30px;
+    border: groove;
+    border-color: #008000;
+    width: 1850px;
+    height: 500px;
+    text-align:right;
+    background-color: white;
+    height: 500px;
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+	padding-top: 15px;
+	
+}
+
+
+.borderScreen1 {
+	position: relative;
+	width: 730px;
+	height: 384px;
+	border: groove;
+}
+
+
+.screen2 {
+    position: relative;
+    width: 735px;
+    height: 500px;
+    text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+	text-align: center;
+	padding-left: 32px;
+	padding-top: 40px;
+
+}
+
+
+.borderScreen2 {
+    position: relative;
+	width: 730px;
+	height: 384px;
+	border: groove;
+}
+
+.endLine {
+	position: relative;
+    width: 1900px;
+    height: 100px;
+    background-color: #305844;
+}
+.btn-menu {
+  color: #fff;
+  background-color: #666;
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 25px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #eee;
+  height: 100%;
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+}
+
+.linkMapa {
+	font-weight: bold;
+	font-size: 25px;
+	color: #305844;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.endLineText {
+	position: relative;
+	font-size: 25px;
+	color: white;
+	padding-top: 40px;
+	z-index: 999;
+	padding-left: 10px;
+}
+
+.art {
+	position: relative;
+	padding-left: 700px;
+}
